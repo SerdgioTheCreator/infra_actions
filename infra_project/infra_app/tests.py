@@ -1,9 +1,13 @@
+"""Docstring to go over tests."""
 from http import HTTPStatus
 from django.test import Client, TestCase
 
 
 class StaticPagesURLTests(TestCase):
+    """Docstring to go over tests."""
+
     def setUp(self):
+        """Docstring to go over tests."""
         self.guest_client = Client()
 
     def test_about_url_exists_at_desired_location(self):

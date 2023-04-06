@@ -1,3 +1,4 @@
+"""Docstring to go over tests."""
 from django.urls import path
 
 from . import views
